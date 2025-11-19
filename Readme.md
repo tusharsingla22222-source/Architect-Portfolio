@@ -153,9 +153,9 @@ Found a bug or have a suggestion? Contributions are welcome!
 
 Have questions or want to collaborate?
 
-**Email**: your.email@example.com  
-**GitHub**: [@your-username](https://github.com/your-username)  
-**LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
+**Email**: tusharsingla22222@gmail.com 
+**GitHub**: [tusharsingla22222-source](https://github.com/tusharsingla22222-source)  
+**LinkedIn**: [Tushar Singla](https://www.linkedin.com/in/tushar-singla-aab67b387/)
 
 ---
 
