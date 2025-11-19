@@ -8,7 +8,7 @@
 
 **A stunning, modern portfolio website designed to showcase architectural masterpieces**
 
-[View Demo](#) · [Report Bug](https://github.com/tusharsingla22222-source/Architect-Portfolio/issues) · [Request Feature](https://github.com/tusharsingla22222-source/Architect-Portfolio/issues)
+[View Demo](https://architect-gravity.netlify.app/) · [Report Bug](https://github.com/tusharsingla22222-source/Architect-Portfolio/issues) · [Request Feature](https://github.com/tusharsingla22222-source/Architect-Portfolio/issues)
 
 </div>
 
