@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(assets/img/mainPageImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.365);
+    position: relative;
+    top: 60px;
+    border-radius: 30px;
+    width: 60vw;
+    left: 240px;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav li{
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    list-style-type: none;
+    
+
+}
