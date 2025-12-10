@@ -40,6 +40,11 @@ nav li a{
     font-size: 22px;
     color: white;
     text-decoration: none;
+
+}
+nav li a:hover{
+    color: whitesmoke;
+    /* font-weight: bold; */
 }
 .yearandLogo{
     padding-top: 40px;
