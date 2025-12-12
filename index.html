@@ -1,62 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
+    <title>Analysis Overview</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <div class="nav"></div>
-            <nav>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="">About Us</a>
-                </li>
-                <li>
-                    <a href="">Projects</a>
-                </li>
-                <li>
-                    <a href="">Portfolio</a>
-                </li>
-                <li>
-                    <a href="">Team</a>
-                </li>
-                <li>
-                    <a href="">Contacts</a>
-                </li>
-            </nav>
-        </div>
-    </header>
 
-    <main>
-        <div class="yearandLogo">
-            <div class = "logo"></div>
-            <div class="year">
-                <p>20</p>
-                <p>25</p>
-            </div>
+<body>
+
+    <main class="slide-container">
+        <header class="header">
+            <h2 class="heading">ANALYSIS</h2>
+            <h1 class="smallheading">OVERVIEW</h1>
+        </header>
+
+        <div class="content">
+            <section class="left"> 
+                <div class="series-item">
+                    <div class="chart-container">
+                        <div class="chart" data-percent="67" style="--percent: 67;">
+                            <span class="percentage">67%</span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Series 01</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+                <!-- Series 02 -->
+                <div class="series-item">
+                    <div class="chart-container">
+                        <div class="chart" data-percent="51" style="--percent: 51;">
+                            <span class="percentage">51%</span>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <h3>Series 02</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="right-column">
+                <div class="chart-legend">
+                    <div class="item">
+                        <span class="dot series-1"></span> Series 1
+                    </div>
+                    <div class="item">
+                        <span class="dot series-2"></span> Series 2
+                    </div>
+                </div>
+
+                <div class="bar-chart-container">
+                    <div class="y-axis">
+                        <span>20</span>
+                        <span>15</span>
+                        <span>10</span>
+                        <span>5</span>
+                        <span>0</span>
+                    </div>
+
+                    <div class="chart-bars">
+                        <div class="bar-group">
+                            <div class="bar series-1" style="height: 15%;"></div> 
+                            <div class="bar series-2" style="height: 30%;"></div> 
+                            <span class="label">Item 1</span>
+                        </div>
+
+                        <div class="bar-group">
+                            <div class="bar series-1" style="height: 40%;"></div> 
+                            <div class="bar series-2" style="height: 70%;"></div> 
+                            <span class="label">Item 2</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar series-1" style="height: 80%;"></div> 
+                            <div class="bar series-2" style="height: 90%;"></div> 
+                            <span class="label">Item 3</span>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
         </div>
-        <div class="line">
-            <p class="normal">Building</p>
-            <p class="normal">Constructions</p>
-            <div class="pAndButton">
-                <p class="mainHeading">Architecture</p>
-                <a href="about.html">
-                    <img src="assets/img/arrow.png" alt="arrow" class="arrow">
-                </a>
-            </div>
-        </div>
+
+        <footer class="slide-footer">
+            <div class="line"></div>
+            <span class="page-number">07</span>
+        </footer>
+
     </main>
-    <footer>
-        <p>Copyright ©2025</p>
-        <p>Designed by Team Gravity</p>
-    </footer>
+
 </body>
+
 </html>
